@@ -1,0 +1,40 @@
+
+.calendar {
+    width: 300px;
+    margin: 50px auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .month {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .weekdays {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ddd;
+  }
+  
+  .weekdays div {
+    width: calc(100% / 7);
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .days {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .days div {
+    width: calc(100% / 7);
+    padding: 10px 0;
+    text-align: center;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .today {
+    background-color: #ffff99;
+  }
